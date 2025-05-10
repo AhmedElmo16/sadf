@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="سائق عربى فى ميونخ  والمانيا يتكلم الالمانية ولديه سيارة مرسيدس فان 8 راكب على استعداد لاستقبال والتوصيل من والى مطار ميونخ وتنظيم جولات سياحية الى الريف البافارى وزيلامسي وايضا خارج المانيا">
+        <meta name="keywords" content="سيارة مرسيدس مع سائق في ميونيخ, سائق عربي في ميونيخ, سيارة مرسيدس فان 8 راكب, تنظيم جولات سياحية, مطار ميونيخ">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+        <title>سيارة مرسيدس مع سائق في ميونيخ ألمانيا</title>
+        <link rel="icon" href="images/autoV.png">
+    </head>
+    <body>
+        <!-- Navigationsbar -->
+        <nav>
+            <!-- Sidebar -->
+            <ul class="sidebar">
+                <li class="close-side" onclick=hideSidebar()>
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                        viewBox="0 -960 960 960" width="26px" fill="white">
+                        <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                    </a>
+                </li>
+                <li onclick=hideSidebar()>
+                    <a href="#"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"
+                        height="24"  viewBox="0 0 24 24"  fill="none"
+                        stroke="currentColor"  stroke-width="2"  stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-home">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                        <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                        <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+                        <p>الصفحة الرئيسية</p>
+                    </a>
+                </li>
+                <li onclick=hideSidebar()>
+                    <a href="#about"><svg  xmlns="http://www.w3.org/2000/svg"
+                        width="24"  height="24"  viewBox="0 0 24 24"  fill="none"
+                        stroke="currentColor"  stroke-width="2"  stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-user">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                        <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+                        <p>عني</p>
+                    </a>
+                </li>
+                <li onclick=hideSidebar()>
+                    <a href="#photos"><svg  xmlns="http://www.w3.org/2000/svg"
+                        width="24"  height="24"  viewBox="0 0 24 24"  fill="none"
+                        stroke="currentColor"  stroke-width="2"  stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-library-photo">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M7 3m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+                        <path d="M4.012 7.26a2.005 2.005 0 0 0 -1.012 1.737v10c0 1.1 .9 2 2 2h10c.75 0 1.158 -.385 1.5 -1" />
+                        <path d="M17 7h.01" /><path d="M7 13l3.644 -3.644a1.21 1.21 0 0 1 1.712 0l3.644 3.644" />
+                        <path d="M15 12l1.644 -1.644a1.21 1.21 0 0 1 1.712 0l2.644 2.644" /></svg>
+                        <p>الصور</p>
+                    </a>
+                </li>
+                <li onclick=hideSidebar()>
+                    <a href="#contact"><svg  xmlns="http://www.w3.org/2000/svg"
+                        width="24"  height="24"  viewBox="0 0 24 24"  fill="none"
+                        stroke="currentColor"  stroke-width="2"  stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-phone">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+                        <p>اتصال</p>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Navbar -->
+            <ul>
+                <li class="hideOnMobile">
+                    <a href="#"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"
+                        height="24"  viewBox="0 0 24 24"  fill="none"
+                        stroke="currentColor"  stroke-width="2"  stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-home">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                        <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                        <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+                        <p>الصفحة الرئيسية</p>
+                    </a>
+                </li>
+                <li class="hideOnMobile">
+                    <a href="#about"><svg  xmlns="http://www.w3.org/2000/svg"
+                        width="24"  height="24"  viewBox="0 0 24 24"  fill="none"
+                        stroke="currentColor"  stroke-width="2"  stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-user">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                        <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+                        <p>عني</p>
+                    </a>
+                </li>
+                <li class="hideOnMobile">
+                    <a href="#photos"><svg  xmlns="http://www.w3.org/2000/svg"
+                        width="24"  height="24"  viewBox="0 0 24 24"  fill="none"
+                        stroke="currentColor"  stroke-width="2"  stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-library-photo">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M7 3m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+                        <path d="M4.012 7.26a2.005 2.005 0 0 0 -1.012 1.737v10c0 1.1 .9 2 2 2h10c.75 0 1.158 -.385 1.5 -1" />
+                        <path d="M17 7h.01" /><path d="M7 13l3.644 -3.644a1.21 1.21 0 0 1 1.712 0l3.644 3.644" />
+                        <path d="M15 12l1.644 -1.644a1.21 1.21 0 0 1 1.712 0l2.644 2.644" /></svg>
+                        <p>الصور</p>
+                    </a>
+                </li>
+                <li class="hideOnMobile">
+                    <a href="#contact"><svg  xmlns="http://www.w3.org/2000/svg"
+                        width="24"  height="24"  viewBox="0 0 24 24"  fill="none"
+                        stroke="currentColor"  stroke-width="2"  stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-phone">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+                        <p>اتصال</p>
+                    </a>
+                </li>
+
+                <!-- MenuButton -->
+                <li class="menu-button" onclick=showSidebar()>
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                        viewBox="0 -960 960 960" width="26px" fill="white">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--* Hero -->
+        <section id="hero">
+            <p class="subheading">ابو يوسف</p>
+            <h1>سائق عربي في ميونخ المانيا</h1>
+            <div class="h-flex">
+                <div class="hero-half"><img src="images/autoV.png" alt="V-Class مرسيد" width="100%"></div>
+                <div class="hero-half"><img src="images/autoS.png" alt="S-Class مرسيد" width="80%"></div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <h2>عني</h2>
+            <hr width="200px" style="float:right">
+            <br><br>
+            <p>
+                اسمي ثروت ,أبو يوسف وأقوم بالتوصيل بسيارتي.
+                <br>الوجهات هي: ميونيخ والمنطقة المحيطة بها، ألمانيا والدول المجاورة.
+                <br>باختصار: أوروبا الوسطى
+                <br><br>السيارات المتوفرة هي:
+                <br> - مرسيدس V-Class  (۷ ركاب)<br>
+                - مرسيدس S-Class  (٤ ركاب)
+            </p>
+        </section>
+
+        <!-- Popular Places -->
+        <section id="popular">
+            <h2>أماكن شعبية</h2>
+            <hr width="200px" style="float:right;">
+
+            <div class="popular">
+                <div>
+                    <div class="pics">
+                        <img src="images/zell_am_see.png" alt="الصورة غير متوفرة"
+                        width="50%" height="55%" style="float:right" />
+                        <img src="images/zell_am_see2.png" alt="الصورة غير متوفرة"
+                        width="50%" height="55%" style="float:right" />
+                    </div>
+                    <h3>زيلامسي</h3>
+                </div>
+
+                <div>
+                    <img src="images/starnberg.png" alt="الصورة غير متوفرة"
+                    width="50%" height="55%" style="float:right" />
+                    <h3>بحيرة شتارنبيرغير</h3>
+                </div>
+
+                <div>
+                    <img src="images/partnachklamm.png" alt="الصورة غير متوفرة"
+                    width="50%" height="55%" style="float:right" />
+                    <h3>بارتناشكلام</h3>
+                </div>
+
+                <div>
+                    <img src="images/olympia.png" alt="الصورة غير متوفرة"
+                    width="50%" height="55%" style="float:right" />
+                    <h3>حديقة الأولمبية</h3>
+                </div>
+
+                <div>
+                    <div class="pics">
+                        <img src="images/garmisch.png" alt="الصورة غير متوفرة"
+                        width="50%" height="55%" style="float:right" />
+                        <img src="images/garmisch2.png" alt="الصورة غير متوفرة"
+                        width="50%" height="55%" style="float:right" />
+                    </div>
+                    <h3>قارميش</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photos -->
+        <section id="photos">
+            <h2>الصور</h2>
+            <hr width="200px"class="w3-opacity" style="float:right">
+
+            <div class="photos">
+                <div class="photos-half">
+                    <img src="" alt="الصورة غير متوفرة" style="width:100%">
+                    <img src="" alt="الصورة غير متوفرة" style="width:100%">
+                    <img src="" alt="الصورة غير متوفرة" style="width:100%">
+                    <img src="" alt="الصورة غير متوفرة" style="width:100%">
+                </div>
+            
+                <div class="photos-half">
+                    <img src="" alt="الصورة غير متوفرة" style="width:100%">
+                    <img src="" alt="الصورة غير متوفرة" style="width:100%">
+                    <img src="" alt="الصورة غير متوفرة" style="width:100%">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>اتصل بي</h2>
+            <hr width="200px"class="w3-opacity" style="float:right">
+
+            <div class="contact">
+                <p dir="ltr">ميونخ، المانيا <svg  xmlns="http://www.w3.org/2000/svg"
+                    width="24"  height="24"  viewBox="0 0 24 24"  fill="none"
+                    stroke="currentColor"  stroke-width="2"  stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg>
+                </p>
+                <a href="tel:+4917661636383"><p dir="ltr">
+                    +4917661636383 <svg  xmlns="http://www.w3.org/2000/svg"
+                    width="24"  height="24"  viewBox="0 0 24 24"  fill="none"
+                    stroke="currentColor"  stroke-width="2"  stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-phone">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+                </p></a>
+                <a href="https://wa.me/4917661636383" target="_blank"
+                rel="noopener noreferrer"><p dir="ltr">
+                    +4917661636383 <svg  xmlns="http://www.w3.org/2000/svg"
+                    width="24"  height="24"  viewBox="0 0 24 24"  fill="none"
+                    stroke="currentColor"  stroke-width="2"  stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                    <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" /></svg>
+                </p></a>
+                <a href="mailto:tharwat4@yahoo.de" target="_blank"><p dir="ltr">tharwat4@yahoo.de
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"
+                    height="24"  viewBox="0 0 24 24"  fill="none"
+                    stroke="currentColor"  stroke-width="2"  stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                    <path d="M3 7l9 6l9 -6" /></svg></p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+         <footer>
+            <a href="https://x.com/dahabramses?s=21&t=Pii-vUxWUqGz36-T7sIkbg" target="_blank">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="26"  height="26"
+                viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4l11.733 16h4.267l-11.733 -16z" /><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" /></svg>
+            </a>
+            <a href="https://tiktok.com/@tharwatelmo" target="_blank">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="26"  height="26"
+                viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-tiktok"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z" /></svg>
+            </a>
+            <a href="https://instagram.com/tharwat4/" target="_blank">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="26"  height="26"
+                viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M16.5 7.5v.01" /></svg>
+            </a>
+         </footer>
+
+         <script src="sidebar.js"></script>
+    </body>
+</html>
